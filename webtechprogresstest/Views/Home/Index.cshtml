@@ -1,0 +1,29 @@
+﻿
+<html>
+<head>
+    <title>Web Technology - Progress Test</title>
+    <style src="/css/site.css"></style>
+</head>
+<body>
+    <form>
+        <section class="container">
+            <label class="labelStyle">Please enter your name:</label><br />
+            <input type="text" name="username" size="50"/><br /><br />
+
+            <label class="labelStyle">Please enter your gender:</label><br />
+            <select name="gender">
+                <option value="value 1" selected="selected">Male</option>
+                <option value="value 2">Female</option>
+                <option value="value 3">Others</option>
+            </select><br /><br />
+
+            <label class="labelStyle">If you chose "others" for gender, please state your gender:</label><br />
+            <input type="text" name="otherGender" size="50"/><br /><br />
+
+            <button type="submit" class="submitButton" onabortclick="submitButton()">Submit</button>
+        </section>
+    </form>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
